@@ -7,8 +7,12 @@
     font-family: Sriracha;
     src: url(estilos/fontes/Sriracha/Sriracha-Regular.ttf);
 }
-body{
+html, body{
     background-color: white;
+    min-height: 100vh;
+}
+article{
+  
 }
 header{
     background-color: black;
@@ -28,25 +32,24 @@ header h2{
     color: white;
     font-family: Sriracha;
 }
+section.normal{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.imagem{
+    background-size: cover;
+    background-attachment: fixed;/*efeito parallax*/
+}
 #img1{ 
   background-image: url(estilos/imagens/background001.jpg);
-  min-width: 400px;
-  min-height: 400px;
-  
   background-position: right center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;/*efeito parallax*/
+
 }
 #img2{
     background-image: url(estilos/imagens/background002.jpg);
-    min-width: 400px;
-    min-height: 400px;
-    background-position: right center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;/*efeito parallax*/
-  
+    
 
 }
 p{
