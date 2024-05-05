@@ -41,14 +41,20 @@ section.normal{
 section.imagem{
     background-size: cover;
     background-attachment: fixed;/*efeito parallax*/
+    
 }
 #img1{ 
   background-image: url(estilos/imagens/background001.jpg);
   background-position: right center;
+  min-width: 300px;
+  min-height: 500px;
 
 }
 #img2{
     background-image: url(estilos/imagens/background002.jpg);
+    min-width: 300px;
+    min-height: 500px;
+    background-position: right center;
     
 
 }
